@@ -62,29 +62,20 @@ ul.social-buttons li a:active {
 .asSeenOn {
 }
 .banner-main {
-	background-color: rgba(0, 0, 0, 0.7);
 	position: absolute;
 	top:0px;
 	left: 0;
 	right: 0;
+    background: url(../images/mapletexture2.jpg) no-repeat center center;
+    background-size: cover;
+	
 
 }
-.banner-nonmain {
-	background-color: black;
-	position: absolute;
-	top:0px;
-	left: 0;
-	right: 0;
 
-}
 .banner-main a {
   font-weight: bold;
-  font-size: 20px;
-  
-}
-.banner-nonmain a {
-  font-weight: bold;
-  font-size: 20px;
+  font-size: 25px;
+  color: black;
   
 }
 .body-content {
@@ -134,7 +125,7 @@ ul.social-buttons li a:active {
 	width: 100%;
 }
 .intro-header {
-    padding-top: 75px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-top: 100px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
@@ -162,19 +153,20 @@ ul.social-buttons li a:active {
 	text-decoration: underline
 }
 .mobile-menu {
-	color: white;	
+	color: black;	
 	font-size: 22px;
 	top:20px;
 }
 .nav-bar-class {
-	padding-top: 30px;
-	padding-right: 10%;
+	padding-top: 35px;
 }
 .navbar-header {
 	height: 120px;
 }
 .navbar-logo {
-  height: 105px;
+	position: relative;
+	top:7px;
+  height: 90px;
   margin-top: 7px;
 
 }
@@ -211,9 +203,6 @@ ul.social-buttons li a:active {
 	margin-top:10px;
 	margin-bottom: 10px;
 }
-.top {
-}
-
 
 #sub-banner {
 	background-color: black;
