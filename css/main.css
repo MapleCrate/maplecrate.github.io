@@ -1,0 +1,268 @@
+body {
+ 	padding-top: 0px;
+ 	font-family: 'Roboto', sans-serif;
+ }
+footer {
+ 	background-color: black;
+ 	width:100%;
+ 	position:absolute;
+ 	left:0;
+ 	right:0;
+ }
+a {
+	color: white;
+}
+h1 {
+		font-size: 5vw;
+
+}
+h2 {
+	font-size: 40px;
+	font-family: 'Bitter', serif;
+	font-weight: 700;
+  	color: #707070;
+}
+footer {
+	font-size: 12px;
+	color: white;
+	position: relative;
+	top: 7em;
+}
+footer h4 {
+	border-bottom: 1px solid #fff;
+
+}
+ul.social-buttons {
+    margin-bottom: 0;
+}
+
+ul.social-buttons li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    outline: 0;
+    color: #fff;
+    background-color: #222;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color: #E72222;
+}
+
+/*------------------------------------------------------*/
+
+.asSeenOn {
+}
+.banner-main {
+	background-color: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	top:0px;
+	left: 0;
+	right: 0;
+
+}
+.banner-nonmain {
+	background-color: black;
+	position: absolute;
+	top:0px;
+	left: 0;
+	right: 0;
+
+}
+.banner-main a {
+  font-weight: bold;
+  font-size: 20px;
+  
+}
+.banner-nonmain a {
+  font-weight: bold;
+  font-size: 20px;
+  
+}
+.body-content {
+	font-family: Roboto, sans-serif;
+  	color: #4d4d4d;
+}
+.body-content p {
+	font-family: Roboto, sans-serif;
+  	color: #4d4d4d;
+  	font-size: 20px;
+}
+
+.body-content {
+	position: relative;
+  	top: 6em;
+}
+.branding {
+	padding-left: 5%;
+}
+.copy {
+	margin-left: 40px;
+}
+.foodnetwork {
+	margin-bottom: 10px;
+	display: block; 
+	background: transparent url(../images/food-network-gray.png) center no-repeat;
+	width: 160px;
+	height: 160px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.foodnetwork:hover {
+	background-image: url(../images/food-network-canada.png);
+}
+.freeshipping {
+	position: absolute;
+	top: 0px;
+
+}
+.packages .freeshipping {
+	position: absolute;
+	top: 76px;
+
+}
+.howitworks {
+	background-color:#faf7f6;
+	width: 100%;
+}
+.intro-header {
+    padding-top: 75px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../images/rsz_jumbotron.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 23%;
+    padding-bottom: 5%;
+}
+.intro-text {
+	position: relative;
+	top: -60px;
+}
+.items h3 {
+	color: red;
+}
+.mail-list input {
+	color: gray;
+	width: 100%;
+}
+.maplenuts h3 {
+	text-decoration: underline
+}
+.mobile-menu {
+	color: white;	
+	font-size: 22px;
+	top:20px;
+}
+.nav-bar-class {
+	padding-top: 30px;
+	padding-right: 10%;
+}
+.navbar-header {
+	height: 120px;
+}
+.navbar-logo {
+  height: 105px;
+  margin-top: 7px;
+
+}
+
+.footer-nav {
+	 font-size: 14px;
+	color: white;
+	
+}
+.packages h3 {
+}
+.paypal_btn{
+	display: inline-block;
+	font-family: inherit;
+	font-size: 24px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	padding: 10px 14px;
+	margin: 0;
+	background: #BB0B0B;
+	border: 0;
+	border-radius: 12px;
+	cursor: pointer;
+	outline: none;
+}
+.paypal_btn:hover{ background: #9D0A0A; }
+.sample-box {
+	margin: 0 auto;
+}
+.specialbutton {
+	margin-left:auto;
+	margin-right: auto;\
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+.top {
+}
+
+
+#sub-banner {
+	background-color: black;
+}
+
+
+
+/*-----------------Subscribe---------------------------*/
+.subscribe .banner-main {
+	background-color: black;
+}
+.subscribe .freeshipping {
+	position: absolute;
+	top: 76px;
+
+}
+
+/*-----------------Items---------------------------*/
+
+.items .banner-main {
+	background-color: black;
+}
+
+
+/*-----------------Maple Nuts---------------------------*/
+
+.maplenuts .banner-main {
+	background-color: black;
+}
+.maplenuts .paypal_btn:hover {
+ color: white;
+ text-decoration: none;
+}
+.maplenuts a h3 {
+	color: #4d4d4d;
+}
+
+/*-----------------FAQ---------------------------*/
+
+.faq .banner-main {
+	background-color: black;
+}
+
+
+/*-----------------Contact---------------------------*/
+
+.contact .banner-main {
+	background-color: black;
+}
+
+
+
