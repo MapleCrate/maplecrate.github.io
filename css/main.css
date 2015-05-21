@@ -14,11 +14,12 @@ a {
 	color: white;
 }
 h1 {
-		font-size: 5vw;
+	font-family: 'Bitter', serif;
+	font-weight: 700;
+  	color: #707070;
 
 }
 h2 {
-	font-size: 40px;
 	font-family: 'Bitter', serif;
 	font-weight: 700;
   	color: #707070;
@@ -213,6 +214,14 @@ ul.social-buttons li a:active {
 	background-color: black;
 }
 
+/*---------------------Home---------------------------*/
+
+.home h1 {
+	font-size: 5vw;
+}
+.home .jumbotron_btn {
+	
+}
 
 
 /*-----------------Subscribe---------------------------*/
