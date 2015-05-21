@@ -2,6 +2,10 @@
 .company-logo {
 	width: 195px; 
 }
+.navbar-logo {
+	top:28px;
+
+}
 #menu1 li {
 	margin-left: 20px;
 }
