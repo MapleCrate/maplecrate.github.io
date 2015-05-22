@@ -24,6 +24,9 @@ h2 {
 	font-weight: 700;
   	color: #707070;
 }
+h3 {
+	font-family: 'Bitter', serif;
+}
 footer {
 	font-size: 12px;
 	color: white;
@@ -219,8 +222,8 @@ ul.social-buttons li a:active {
 .home h1 {
 	font-size: 5vw;
 }
-.home .jumbotron_btn {
-	
+.home .jumbotron_btn { 
+
 }
 
 
