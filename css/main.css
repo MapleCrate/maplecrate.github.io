@@ -12,6 +12,7 @@ footer {
  }
 a {
 	color: white;
+	transition: all ease-in-out 0.5s;
 }
 h1 {
 	font-family: 'Bitter', serif;
@@ -201,8 +202,13 @@ ul.social-buttons li a:active {
 	border-radius: 12px;
 	cursor: pointer;
 	outline: none;
+	transition: all ease-in-out 0.5s;
 }
-.paypal_btn:hover{ background: #9D0A0A; }
+.paypal_btn:hover{ 
+	background: #820909; 
+	color: white;
+	text-decoration: none;
+}
 .sample-box {
 	margin: 0 auto;
 }
@@ -270,5 +276,16 @@ ul.social-buttons li a:active {
 	background-color: black;
 }
 
+.navbar-nav>li>a {
+	border-bottom: 2px solid transparent;
+	transition: all 0.5s ease-in-out;
+	padding-left: 0;
+    padding-right: 0;
+	margin: 0 15px;
+	padding-bottom: 7px;
+}
 
-
+.navbar-nav>li>a:hover {
+	background: transparent;
+	border-bottom: 2px solid black;
+}
